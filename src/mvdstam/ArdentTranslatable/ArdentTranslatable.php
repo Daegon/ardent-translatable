@@ -1,6 +1,6 @@
 <?php namespace Mvdstam\ArdentTranslatable;
   
-  use LaravelBook\Ardent;
+  use LaravelBook\Ardent\Ardent;
   use Dimsav\Translatable\Translatable;
 
   abstract class ArdentTranslatable extends Ardent {
