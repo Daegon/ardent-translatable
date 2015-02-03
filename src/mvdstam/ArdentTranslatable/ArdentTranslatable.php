@@ -1,4 +1,4 @@
-<?php
+<?php namespace Mvdstam\ArdentTranslatable;
   
   use LaravelBook\Ardent;
   use Dimsav\Translatable\Translatable;
