@@ -9,7 +9,7 @@
         {
             "name": "Max van der Stam",
             "role": "Developer"
-        },
+        }
     ],
     "support": {
         "issues": "https://github.com/mvdstam/ardent-translatable/issues"
