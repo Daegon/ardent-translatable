@@ -8,8 +8,6 @@ In a lot of cases, you may want to be able to use both the awesome functionality
 This package provides a base model class **ArdentTranslatable** for your Laravel projects, which brings the functionalities provided by [laravelbook/ardent](https://github.com/laravelbook/ardent) and [dimsav/laravel-translatable](https://github.com/dimsav/laravel-translatable) together in one class.
 Aside from that, all `rules` can be designated in the main model class for each entity, even for fields that are actually translated (and thus handled by a `{$model_name}Translation` instead of the main model).
 
-This class has also been tested by 
-
 ## Installation
 
 Add `mvdstam/ardent-translatable` as a requirement to `composer.json`:
