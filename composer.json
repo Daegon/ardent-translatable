@@ -19,10 +19,18 @@
         "dimsav/laravel-translatable": "~4.5",
         "laravelbook/ardent": "2.*"
     },
+    "require-dev": {
+        "orchestra/testbench": "~2.2",
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9"
+    },
     "autoload": {
-        "psr-0": {
-            "Mvdstam\\ArdentTranslatable": "src/"
-        }
+        "psr-4": {
+            "Mvdstam\\ArdentTranslatable\\": "src/ArdentTranslatable/"
+        },
+        "classmap": [
+            "tests"
+        ]
     },
     "minimum-stability": "dev"
 }
