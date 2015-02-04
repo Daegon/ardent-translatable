@@ -1,5 +1,6 @@
 Ardent Translatable
 ======
+[![Build Status](https://travis-ci.org/mvdstam/ardent-translatable.svg)](https://travis-ci.org/mvdstam/ardent-translatable)
 
 **Please note that this package should be considered alpha; use at your own risk!**
 
@@ -67,6 +68,16 @@ class PostTranslation extends Eloquent {
 Please note that the `Post` class extends `ArdentTranslatable`, thus providing access to the full `Ardent` rule-based system as well the localization functionality provided by the `Translatable` trait. The `PostTranslation` class still extends the regular `Eloquent` class.
 
 When writing models that do not need translated fields, you should just extend the regular `Ardent` class to avoid unnecessary overhead.
+
+Using the models above and running all necessary migrations, one can simply use the `Post` model:
+
+```php
+$post = new Post();
+
+$post->save(); // Returns false	
+
+```
+
 
 ## Todo
 * Tests
