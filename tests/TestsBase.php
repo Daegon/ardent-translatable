@@ -21,7 +21,7 @@ abstract class TestsBase extends TestCase {
         $app['config']->set('database.connections.mysql', array(
             'driver'   => 'mysql',
             'host' => 'localhost',
-            'database' => 'translatable_test',
+            'database' => 'ardent_translatable_test',
             'username' => 'homestead',
             'password' => 'secret',
             'charset' => 'utf8',
