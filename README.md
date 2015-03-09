@@ -80,5 +80,5 @@ $post->save(); // Returns false
 
 
 ## Todo
-* Tests
+* ~~Tests~~
 * Expand upon this documentation :smiley:
