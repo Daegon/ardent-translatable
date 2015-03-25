@@ -24,18 +24,6 @@
       return false;
     }
 
-    public function getDirty() {
-      $data = parent::getDirty();
-
-      if ($this->translatedAttributes) {
-        foreach($this->translations as $translations) {
-          $data += $translations->getDirty();
-        }
-      }
-
-      return $data;
-    }
-
     public function getAttributes() {
         $data = parent::getAttributes();
 
