@@ -9,8 +9,6 @@
       Translatable::save as translatableSave;
     }
 
-    protected static $debugBackTraceHashes = [];
-
     public function save(
       array $rules = array(),
       array $customMessages = array(),
