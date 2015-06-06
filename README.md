@@ -1,7 +1,10 @@
 Ardent Translatable
 ======
 
+**This package is no longer maintained**
+
 **Please note that this package should be considered alpha; use at your own risk!**
+
 
 In a lot of cases, you may want to be able to use both the awesome functionality brought by the `laravelbook/ardent` package but also the trait provided by `dimsav/laravel-translatable`. When using those two combined, some issues would occur at the time of writing.
 
